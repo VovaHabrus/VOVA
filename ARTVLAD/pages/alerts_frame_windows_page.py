@@ -4,9 +4,9 @@ import time
 import allure
 from selenium.common.exceptions import UnexpectedAlertPresentException
 
-from locators.alerts_frame_windows_locators import BrowserWindowsPageLocators, AlertsPageLocators, FramesPageLocators, \
+from ARTVLAD.locators.alerts_frame_windows_locators import BrowserWindowsPageLocators, AlertsPageLocators, FramesPageLocators, \
     NestedFramesPageLocators, ModalDialogsPageLocators
-from pages.base_page import BasePage
+from ARTVLAD.pages.base_page import BasePage
 
 
 class BrowserWindowsPage(BasePage):

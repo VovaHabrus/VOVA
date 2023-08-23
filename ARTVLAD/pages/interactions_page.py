@@ -4,9 +4,9 @@ import time
 
 import allure
 
-from locators.interactions_page_locators import SortablePageLocators, SelectablePageLocators, ResizablePageLocators, \
+from ARTVLAD.locators.interactions_page_locators import SortablePageLocators, SelectablePageLocators, ResizablePageLocators, \
     DroppablePageLocators, DraggablePageLocators
-from pages.base_page import BasePage
+from ARTVLAD.pages.base_page import BasePage
 
 
 class SortablePage(BasePage):

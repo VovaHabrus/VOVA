@@ -1,6 +1,6 @@
 import allure
 
-from pages.interactions_page import SortablePage, SelectablePage, ResizablePage, DroppablePage, DraggablePage
+from ARTVLAD.pages.interactions_page import SortablePage, SelectablePage, ResizablePage, DroppablePage, DraggablePage
 
 
 @allure.suite('Interactions')

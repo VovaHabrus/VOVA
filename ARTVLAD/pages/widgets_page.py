@@ -6,10 +6,10 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver import Keys
 from selenium.webdriver.support.select import Select
 
-from generator.generator import generated_color, generated_date
-from locators.widgets_page_locators import AccordianPageLocators, AutoCompletePageLocators, DatePickerPageLocators, \
+from ARTVLAD.generator.generator import generated_color, generated_date
+from ARTVLAD.locators.widgets_page_locators import AccordianPageLocators, AutoCompletePageLocators, DatePickerPageLocators, \
     SliderPageLocators, ProgressBarPageLocators, TabsPageLocators, ToolTipsPageLocators, MenuPageLocators
-from pages.base_page import BasePage
+from ARTVLAD.pages.base_page import BasePage
 
 
 class AccordianPage(BasePage):

@@ -1,6 +1,6 @@
 import random
 
-from data.data import Person, Color, Date
+from ARTVLAD.data.data import Person, Color, Date
 from faker import Faker
 
 faker_ru = Faker('ru_RU')
@@ -24,7 +24,7 @@ def generated_person():
 
 
 def generated_file():
-    path = rf'E:\automation_qa_course\filetest{random.randint(0, 999)}.txt'
+    path = rf'C:\Users\vovah\PycharmProjects\VOVA{random.randint(0, 999)}.txt'
     file = open(path, 'w+')
     file.write(f'Hello World{random.randint(0, 999)}')
     file.close()
@@ -33,7 +33,7 @@ def generated_file():
 
 def generated_color():
     yield Color(
-        color_name=["Red", "Blue", "Green", "Yellow", "Purple", "Black", "White", "Voilet", "Indigo", "Magenta", "Aqua"]
+        color_name=["Red", "Blue", "Green", "Yellow", "Purple", "Black", "White", "Violet", "Indigo", "Magenta", "Aqua"]
     )
 
 
