@@ -1,4 +1,6 @@
+
 document.getElementsByClassName('found-mistake-alert')[0].remove();
+
 команда в терміналі для для знаття баннера на js в перевірці в хромі на сайті price.ua
 
-#----------------------
+#   ----------------------

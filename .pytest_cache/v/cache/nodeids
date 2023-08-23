@@ -1,0 +1,18 @@
+[
+  "ARTVLAD/tests/elements_test.py::TestElements::TestButtonsPage::test_different_click_on_the_buttons",
+  "ARTVLAD/tests/elements_test.py::TestElements::TestCheckBox::test_check_box",
+  "ARTVLAD/tests/elements_test.py::TestElements::TestDynamicPropertiesPage::test_appear_button",
+  "ARTVLAD/tests/elements_test.py::TestElements::TestDynamicPropertiesPage::test_dynamic_properties",
+  "ARTVLAD/tests/elements_test.py::TestElements::TestDynamicPropertiesPage::test_enable_button",
+  "ARTVLAD/tests/elements_test.py::TestElements::TestLinksPage::test_broken_link",
+  "ARTVLAD/tests/elements_test.py::TestElements::TestLinksPage::test_check_link",
+  "ARTVLAD/tests/elements_test.py::TestElements::TestRadioButton::test_radio_button",
+  "ARTVLAD/tests/elements_test.py::TestElements::TestTextBox::test_text_box",
+  "ARTVLAD/tests/elements_test.py::TestElements::TestUploadAndDownload::test_download_file",
+  "ARTVLAD/tests/elements_test.py::TestElements::TestUploadAndDownload::test_upload_file",
+  "ARTVLAD/tests/elements_test.py::TestElements::TestWebTable::test_web_table_add_person",
+  "ARTVLAD/tests/elements_test.py::TestElements::TestWebTable::test_web_table_change_count_row",
+  "ARTVLAD/tests/elements_test.py::TestElements::TestWebTable::test_web_table_delete_person",
+  "ARTVLAD/tests/elements_test.py::TestElements::TestWebTable::test_web_table_search_person",
+  "ARTVLAD/tests/elements_test.py::TestElements::TestWebTable::test_web_table_update_person_info"
+]

@@ -1,0 +1,7 @@
+{
+  "ARTVLAD/tests/elements_test.py::TestElements::TestRadioButton::test_radio_button": true,
+  "ARTVLAD/tests/elements_test.py::TestElements::TestWebTable::test_web_table_search_person": true,
+  "ARTVLAD/tests/elements_test.py::TestElements::TestWebTable::test_web_table_change_count_row": true,
+  "ARTVLAD/tests/elements_test.py::TestElements::TestUploadAndDownload::test_upload_file": true,
+  "ARTVLAD/tests/elements_test.py::TestElements::TestUploadAndDownload::test_download_file": true
+}
