@@ -1,6 +1,8 @@
 # Created by pytest automatically.
-* /test_results
+*/test_results
 .test_results/
 test_results/
-.test_results
-# /test_results
+VOVA/test_results
+/test_results
+**/test_results
+*.json

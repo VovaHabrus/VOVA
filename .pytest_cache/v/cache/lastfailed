@@ -1,7 +1,16 @@
 {
   "ARTVLAD/tests/elements_test.py::TestElements::TestRadioButton::test_radio_button": true,
-  "ARTVLAD/tests/elements_test.py::TestElements::TestWebTable::test_web_table_search_person": true,
   "ARTVLAD/tests/elements_test.py::TestElements::TestWebTable::test_web_table_change_count_row": true,
-  "ARTVLAD/tests/elements_test.py::TestElements::TestUploadAndDownload::test_upload_file": true,
-  "ARTVLAD/tests/elements_test.py::TestElements::TestUploadAndDownload::test_download_file": true
+  "ARTVLAD/tests/elements_test.py::TestElements::TestUploadAndDownload::test_download_file": true,
+  "ARTVLAD/tests/alerts_frame_windows_test.py::TestAlertsFrameWindow::TestAlertsPage::test_see_alert": true,
+  "ARTVLAD/tests/alerts_frame_windows_test.py::TestAlertsFrameWindow::TestAlertsPage::test_alert_appear_5_sec": true,
+  "ARTVLAD/tests/elements_test.py::TestElements::TestWebTable::test_web_table_delete_person": true,
+  "ARTVLAD/tests/form_test.py::TestForm::TestFormPage::test_form": true,
+  "ARTVLAD/tests/interactions_test.py::TestInteractions::TestSelectablePage::test_selectable": true,
+  "ARTVLAD/tests/interactions_test.py::TestInteractions::TestResizablePage::test_resizable": true,
+  "ARTVLAD/tests/interactions_test.py::TestInteractions::TestDroppablePage::test_revert_draggable_droppable": true,
+  "ARTVLAD/tests/interactions_test.py::TestInteractions::TestDraggablePage::test_axis_restricted_draggable": true,
+  "ARTVLAD/tests/widgests_test.py::TestWidgets::TestTabsPage::test_tabs": true,
+  "ARTVLAD/tests/widgests_test.py::TestWidgets::TestToolTips::test_tool_tips": true,
+  "ARTVLAD/tests/elements_test.py::TestElements::TestTextBox::test_text_box": true
 }
