@@ -1,3 +1,4 @@
+#################### 1
 from datetime import datetime
 import allure
 import pytest
@@ -12,3 +13,16 @@ def driver():
     attach = driver.get_screenshot_as_png()
     allure.attach(attach, name=f"Screenshot {datetime.today()}", attachment_type=allure.attachment_type.PNG)
     driver.quit()
+
+##################### 2
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+
+browser = webdriver.Chrome()
+browser.get('https://ua.sinoptik.ua/')
+login_btn = browser.find_element(By.CLASS_NAME, 'sLogo')
+login_btn.click()
+title = browser.find_element(By.TAG_NAME, 'a')
+assert title.text == 'погода'

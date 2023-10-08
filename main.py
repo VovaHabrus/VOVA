@@ -12,7 +12,8 @@ class CourseHunterTest(unittest.TestCase):
     @allure.step
     def setUp(self):
         self.driver = webdriver.Chrome()
-        self.driver.implicitly_wait(10)
+        self.driver.maximize_window()
+        self.driver.implicitly_wait(5)
         self.base_url = "https://coursehunter.net/"
 
     @allure.step

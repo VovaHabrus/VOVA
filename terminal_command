@@ -1,0 +1,17 @@
+
+pytest -s -v PythonUdemyLessons/test_allure.py                                          ###   Всі тести з файла
+pytest -s -v PythonUdemyLessons/test_allure.py --alluredir=test_results/ -k test_var_33 ###   Окремий тест
+pytest -s -v PythonUdemyLessons/test_allure.py --alluredir=test_results/                ###   Запустити файл з тестами
+allure serve test_results/                                                              ###   Згенерувати алюр
+
+python -m pytest -s -v ARTVLAD/tests/elements_test.py -k test_text_box --alluredir=test_results/
+
+pip install --upgrade -r requirements.txt   ###   update -> requirements.txt
+
+cd..        ###      Перейти назад
+cd VOVA     ###      Перейти вперед
+
+pip install selenium    ###     Якщо встановити без (venv) встановить на весь ПК... Можуть бути конфлікти
+scoop install allure    ###
+
+python3 -m venv venv    ###     Встановити віртуалку
