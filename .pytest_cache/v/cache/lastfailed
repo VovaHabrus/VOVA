@@ -12,5 +12,5 @@
   "ARTVLAD/tests/interactions_test.py::TestInteractions::TestDraggablePage::test_axis_restricted_draggable": true,
   "ARTVLAD/tests/widgests_test.py::TestWidgets::TestTabsPage::test_tabs": true,
   "ARTVLAD/tests/widgests_test.py::TestWidgets::TestToolTips::test_tool_tips": true,
-  "test_1.py": true
+  "test_cal.py::test_cal_if": true
 }
