@@ -1,6 +1,5 @@
 def test_cal_if():
-    print("Your command.txt is ?")
-    command = input()
+    command = input("Your command is ?")
     if command == "*":
         num_1 = int(input("Num 1 = "))
         num_2 = int(input("Num 2 = "))
@@ -22,4 +21,4 @@ def test_cal_if():
         res = num_1 - num_2
         print("Result is : ", res)
     else:
-        command != "*" or "+" or "-" or "/", print("Pls check yor command.txt ! ")
+        command != "*" or "+" or "-" or "/", print("Pls check yor command ! ")
