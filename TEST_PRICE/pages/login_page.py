@@ -1,3 +1,5 @@
+import time
+
 import allure
 
 from TEST_PRICE.locators.login_page_locators import LoginPageLocators
@@ -7,16 +9,17 @@ from TEST_PRICE.pages.base_page import BasePage
 class LoginPage(BasePage):
     locators = LoginPageLocators()
 
-    @allure.step("Fill login fields")
+    @allure.step("Fill in all fields")
     def fill_login_fields(self):
-        self.element_is_visible(self.locators.LOGIN_BTN).click()
-        self.element_is_visible(self.locators.EMAIL)
-        self.element_is_visible(self.locators.PASSWORD)
-        self.element_is_visible(self.locators.SUBMIT_BTN).click()
+        self.element_is_visible(self.locators.EMAIL).send_keys("vova.habrus@gmail.com")
+        self.element_is_visible(self.locators.PASSWORD).send_keys("PriceTest123")
 
-    @allure.step("Fill login fields")
-    def fill_login_fields_2(self):
-        self.driver.element("//a[contains(text(),'Вхід')]").click()
-        self.driver.element("#LoginForm_username").type("vova.habrus@gmail.com")
-        self.driver.element("#login_user_password").type("PriceTest123")
-        self.driver.element(".btn.btn-orange.btn-login").click()
+    @allure.step("Click on login btn")
+    def click_login_btn(self):
+        time.sleep(1)
+        self.element_is_visible(self.locators.LOGIN_BTN).click()
+
+    @allure.step("Click submint when filled the fields")
+    def click_submint_btn(self):
+        time.sleep(1)
+        self.element_is_visible(self.locators.SUBMIT_BTN).click()
