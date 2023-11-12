@@ -2,8 +2,8 @@ import time
 
 import allure
 
-from TEST_PRICE.locators.login_page_locators import LoginPageLocators
-from TEST_PRICE.pages.base_page import BasePage
+from PRICE.locators.login_page_locators import LoginPageLocators
+from PRICE.pages.base_page import BasePage
 
 
 class LoginPage(BasePage):

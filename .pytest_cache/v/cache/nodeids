@@ -45,6 +45,8 @@
   "ARTVLAD/tests/widgests_test.py::TestWidgets::TestSliderPage::test_slider",
   "ARTVLAD/tests/widgests_test.py::TestWidgets::TestTabsPage::test_tabs",
   "ARTVLAD/tests/widgests_test.py::TestWidgets::TestToolTips::test_tool_tips",
+  "PRICE/tests/test_login.py::TestHomePage::TestLoginBox::test_open_login",
+  "PRICE_SELENE/tests/test_login.py::test_valid_login",
   "QADEMO/tests/elements_test.py::TestElements::TestTextBox::test_text_box",
   "TEST_EXAMPLES/test_calculator.py::test_cal_if",
   "TEST_EXAMPLES/test_elif.py::test_cal_if",

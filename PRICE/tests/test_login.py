@@ -1,6 +1,6 @@
 import allure
 
-from TEST_PRICE.pages.login_page import LoginPage
+from PRICE.pages.login_page import LoginPage
 
 
 @allure.suite("Home Page")

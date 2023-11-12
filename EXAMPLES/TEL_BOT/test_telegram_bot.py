@@ -1,6 +1,6 @@
 import telebot
 
-from TEST_EXAMPLES.TEL_BOT.config import token
+from EXAMPLES.TEL_BOT.config import token
 
 # TODO import    pip install BeautifulSoup4
 
