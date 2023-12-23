@@ -1,11 +1,11 @@
 allure-pytest==2.13.2
 allure-python-commons==2.13.2
-pip==23.3.1
+pip==23.3.2
 pytest==7.4.3
-isort==5.12.0
-black==23.11.0
-Faker==20.0.0
+isort==5.13.2
+black==23.12.1
+Faker==21.0.0
 webdriver-manager==4.0.1
 selene==2.0.0rc4
-selenium==4.15.2
+selenium==4.16.0
 requests==2.31.0

@@ -14,3 +14,9 @@ def test_valid_login():
     fill_fild()
     browser.element(".btn.btn-orange.btn-login").click()
     browser.element("a[id='header-user-link'] span").should(have.exact_text("Vovan"))
+
+
+@allure.title("Test catagoris")
+def test_category():
+    browser.open("https://price.ua/ua")
+    time.sleep(3)
