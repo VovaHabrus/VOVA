@@ -1,23 +1,7 @@
-from datetime import datetime
-
 import allure
-import pytest
-from selenium import webdriver
+
 from PRICE.pages.login_page import LoginPage
-
-
-@pytest.fixture
-def driver():
-    driver = webdriver.Chrome()
-    driver.maximize_window()
-    yield driver
-    attach = driver.get_screenshot_as_png()
-    allure.attach(
-        attach,
-        name=f"Screenshot {datetime.today()}",
-        attachment_type=allure.attachment_type.PNG,
-    )
-    driver.quit()
+from PRICE.conftest import driver
 
 
 @allure.suite("Home Page")

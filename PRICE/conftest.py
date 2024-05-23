@@ -1,11 +1,10 @@
 from datetime import datetime
-
 import allure
 import pytest
 from selenium import webdriver
 
 
-@pytest.fixture(scope="function")
+@pytest.fixture(scope="module")
 def driver():
     driver = webdriver.Chrome()
     driver.maximize_window()
