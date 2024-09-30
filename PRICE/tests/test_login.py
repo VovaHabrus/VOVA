@@ -4,11 +4,12 @@ import allure
 import pytest
 from selenium import webdriver
 from PRICE.pages.login_page import LoginPage
-
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service as ChromeService
 
 @pytest.fixture
 def driver():
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
     driver.maximize_window()
     yield driver
     attach = driver.get_screenshot_as_png()

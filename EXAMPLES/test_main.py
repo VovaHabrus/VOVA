@@ -4,14 +4,15 @@ import time
 import unittest
 
 import allure
-from selenium import webdriver
 from selenium.webdriver.common.by import By
-
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service as ChromeService
 
 class CourseHunterTest(unittest.TestCase):
     @allure.step
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
         self.driver.maximize_window()
         self.driver.implicitly_wait(5)
         self.base_url = "https://coursehunter.net/"
